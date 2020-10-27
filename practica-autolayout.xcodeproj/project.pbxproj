@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DBEDE692548B68400244FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE682548B68400244FFE /* AppDelegate.swift */; };
+		3DBEDE6B2548B68400244FFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE6A2548B68400244FFE /* SceneDelegate.swift */; };
+		3DBEDE6D2548B68400244FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE6C2548B68400244FFE /* ViewController.swift */; };
+		3DBEDE702548B68400244FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBEDE6E2548B68400244FFE /* Main.storyboard */; };
+		3DBEDE722548B68600244FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBEDE712548B68600244FFE /* Assets.xcassets */; };
+		3DBEDE752548B68600244FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBEDE732548B68600244FFE /* LaunchScreen.storyboard */; };
+		3DBEDE802548B68600244FFE /* practica_autolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE7F2548B68600244FFE /* practica_autolayoutTests.swift */; };
+		3DBEDE8B2548B68600244FFE /* practica_autolayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE8A2548B68600244FFE /* practica_autolayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DBEDE7C2548B68600244FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBEDE5D2548B68400244FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBEDE642548B68400244FFE;
+			remoteInfo = "practica-autolayout";
+		};
+		3DBEDE872548B68600244FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBEDE5D2548B68400244FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBEDE642548B68400244FFE;
+			remoteInfo = "practica-autolayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DBEDE652548B68400244FFE /* practica-autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practica-autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBEDE682548B68400244FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DBEDE6A2548B68400244FFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DBEDE6C2548B68400244FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DBEDE6F2548B68400244FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DBEDE712548B68600244FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DBEDE742548B68600244FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DBEDE762548B68600244FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBEDE7B2548B68600244FFE /* practica-autolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practica-autolayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBEDE7F2548B68600244FFE /* practica_autolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_autolayoutTests.swift; sourceTree = "<group>"; };
+		3DBEDE812548B68600244FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBEDE862548B68600244FFE /* practica-autolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practica-autolayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBEDE8A2548B68600244FFE /* practica_autolayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_autolayoutUITests.swift; sourceTree = "<group>"; };
+		3DBEDE8C2548B68600244FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DBEDE622548B68400244FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE782548B68600244FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE832548B68600244FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DBEDE5C2548B68400244FFE = {
+			isa = PBXGroup;
+			children = (
+				3DBEDE672548B68400244FFE /* practica-autolayout */,
+				3DBEDE7E2548B68600244FFE /* practica-autolayoutTests */,
+				3DBEDE892548B68600244FFE /* practica-autolayoutUITests */,
+				3DBEDE662548B68400244FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DBEDE662548B68400244FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEDE652548B68400244FFE /* practica-autolayout.app */,
+				3DBEDE7B2548B68600244FFE /* practica-autolayoutTests.xctest */,
+				3DBEDE862548B68600244FFE /* practica-autolayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DBEDE672548B68400244FFE /* practica-autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEDE682548B68400244FFE /* AppDelegate.swift */,
+				3DBEDE6A2548B68400244FFE /* SceneDelegate.swift */,
+				3DBEDE6C2548B68400244FFE /* ViewController.swift */,
+				3DBEDE6E2548B68400244FFE /* Main.storyboard */,
+				3DBEDE712548B68600244FFE /* Assets.xcassets */,
+				3DBEDE732548B68600244FFE /* LaunchScreen.storyboard */,
+				3DBEDE762548B68600244FFE /* Info.plist */,
+			);
+			path = "practica-autolayout";
+			sourceTree = "<group>";
+		};
+		3DBEDE7E2548B68600244FFE /* practica-autolayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEDE7F2548B68600244FFE /* practica_autolayoutTests.swift */,
+				3DBEDE812548B68600244FFE /* Info.plist */,
+			);
+			path = "practica-autolayoutTests";
+			sourceTree = "<group>";
+		};
+		3DBEDE892548B68600244FFE /* practica-autolayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEDE8A2548B68600244FFE /* practica_autolayoutUITests.swift */,
+				3DBEDE8C2548B68600244FFE /* Info.plist */,
+			);
+			path = "practica-autolayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DBEDE642548B68400244FFE /* practica-autolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBEDE8F2548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayout" */;
+			buildPhases = (
+				3DBEDE612548B68400244FFE /* Sources */,
+				3DBEDE622548B68400244FFE /* Frameworks */,
+				3DBEDE632548B68400244FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practica-autolayout";
+			productName = "practica-autolayout";
+			productReference = 3DBEDE652548B68400244FFE /* practica-autolayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DBEDE7A2548B68600244FFE /* practica-autolayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBEDE922548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayoutTests" */;
+			buildPhases = (
+				3DBEDE772548B68600244FFE /* Sources */,
+				3DBEDE782548B68600244FFE /* Frameworks */,
+				3DBEDE792548B68600244FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBEDE7D2548B68600244FFE /* PBXTargetDependency */,
+			);
+			name = "practica-autolayoutTests";
+			productName = "practica-autolayoutTests";
+			productReference = 3DBEDE7B2548B68600244FFE /* practica-autolayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DBEDE852548B68600244FFE /* practica-autolayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBEDE952548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayoutUITests" */;
+			buildPhases = (
+				3DBEDE822548B68600244FFE /* Sources */,
+				3DBEDE832548B68600244FFE /* Frameworks */,
+				3DBEDE842548B68600244FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBEDE882548B68600244FFE /* PBXTargetDependency */,
+			);
+			name = "practica-autolayoutUITests";
+			productName = "practica-autolayoutUITests";
+			productReference = 3DBEDE862548B68600244FFE /* practica-autolayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DBEDE5D2548B68400244FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3DBEDE642548B68400244FFE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3DBEDE7A2548B68600244FFE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3DBEDE642548B68400244FFE;
+					};
+					3DBEDE852548B68600244FFE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3DBEDE642548B68400244FFE;
+					};
+				};
+			};
+			buildConfigurationList = 3DBEDE602548B68400244FFE /* Build configuration list for PBXProject "practica-autolayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DBEDE5C2548B68400244FFE;
+			productRefGroup = 3DBEDE662548B68400244FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DBEDE642548B68400244FFE /* practica-autolayout */,
+				3DBEDE7A2548B68600244FFE /* practica-autolayoutTests */,
+				3DBEDE852548B68600244FFE /* practica-autolayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DBEDE632548B68400244FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBEDE752548B68600244FFE /* LaunchScreen.storyboard in Resources */,
+				3DBEDE722548B68600244FFE /* Assets.xcassets in Resources */,
+				3DBEDE702548B68400244FFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE792548B68600244FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE842548B68600244FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DBEDE612548B68400244FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBEDE6D2548B68400244FFE /* ViewController.swift in Sources */,
+				3DBEDE692548B68400244FFE /* AppDelegate.swift in Sources */,
+				3DBEDE6B2548B68400244FFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE772548B68600244FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBEDE802548B68600244FFE /* practica_autolayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBEDE822548B68600244FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBEDE8B2548B68600244FFE /* practica_autolayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DBEDE7D2548B68600244FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBEDE642548B68400244FFE /* practica-autolayout */;
+			targetProxy = 3DBEDE7C2548B68600244FFE /* PBXContainerItemProxy */;
+		};
+		3DBEDE882548B68600244FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBEDE642548B68400244FFE /* practica-autolayout */;
+			targetProxy = 3DBEDE872548B68600244FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DBEDE6E2548B68400244FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DBEDE6F2548B68400244FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DBEDE732548B68600244FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DBEDE742548B68600244FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DBEDE8D2548B68600244FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DBEDE8E2548B68600244FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DBEDE902548B68600244FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DBEDE912548B68600244FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DBEDE932548B68600244FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayoutTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica-autolayout.app/practica-autolayout";
+			};
+			name = Debug;
+		};
+		3DBEDE942548B68600244FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayoutTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica-autolayout.app/practica-autolayout";
+			};
+			name = Release;
+		};
+		3DBEDE962548B68600244FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "practica-autolayout";
+			};
+			name = Debug;
+		};
+		3DBEDE972548B68600244FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-autolayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-autolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "practica-autolayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DBEDE602548B68400244FFE /* Build configuration list for PBXProject "practica-autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBEDE8D2548B68600244FFE /* Debug */,
+				3DBEDE8E2548B68600244FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBEDE8F2548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBEDE902548B68600244FFE /* Debug */,
+				3DBEDE912548B68600244FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBEDE922548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBEDE932548B68600244FFE /* Debug */,
+				3DBEDE942548B68600244FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBEDE952548B68600244FFE /* Build configuration list for PBXNativeTarget "practica-autolayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBEDE962548B68600244FFE /* Debug */,
+				3DBEDE972548B68600244FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DBEDE5D2548B68400244FFE /* Project object */;
+}
